@@ -1,1 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aymen Boudali — FullStack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+</head>
+<body>
 
+<nav>
+  <div class="inner">
+    <span class="nav-logo">~/aymen-boudali</span>
+    <div class="nav-links">
+      <a href="#projects">projects</a>
+      <a href="#experience">experience</a>
+      <a href="#skills">skills</a>
+      <a href="#contact">contact</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <div class="hero-tag">Available for opportunities</div>
+      <h1>Aymen<br><span>Boudali</span></h1>
+      <p class="hero-role">// FullStack Developer · AI · IoT</p>
+      <p>Building intelligent full-stack systems — from real-time IoT dashboards to LLM-powered chatbots and RAG pipelines. 4+ years turning complex requirements into clean, production-grade code.</p>
+      <div class="hero-actions">
+        <a href="mailto:aymenalboudali@gmail.com" class="btn btn-primary">→ get in touch</a>
+        <a href="https://linkedin.com/in/boudali-aymen/" target="_blank" class="btn btn-outline">linkedin ↗</a>
+      </div>
+    </div>
+    <div class="hero-avatar">
+      <div class="avatar-inner">
+        AB
+        <div class="avatar-corner tl"></div>
+        <div class="avatar-corner tr"></div>
+        <div class="avatar-corner bl"></div>
+        <div class="avatar-corner br"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-row">
+    <div class="stat">
+      <div class="stat-num">4<span>+</span></div>
+      <div class="stat-label">Years experience</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">6<span>+</span></div>
+      <div class="stat-label">Major projects</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">15<span>+</span></div>
+      <div class="stat-label">Technologies</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">3<span>+</span></div>
+      <div class="stat-label">AI integrations</div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header">
+      <span class="section-label">01</span>
+      <h2>featured projects</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-grid">
+
+      <div class="project-card green">
+        <div class="project-icon">🤖</div>
+        <h3>AI Energy Monitoring Chatbot</h3>
+        <p>Multi-tenant real-time AI chatbot for IoT energy monitoring. Features intent-routing, RAG via FAISS embeddings, automated PDF/CSV report generation, and dynamic chart rendering.</p>
+        <div class="tag-row">
+          <span class="tag">FastAPI</span>
+          <span class="tag">OpenAI</span>
+          <span class="tag">LangChain</span>
+          <span class="tag">ChromaDB</span>
+          <span class="tag">WebSockets</span>
+          <span class="tag">MCP</span>
+        </div>
+      </div>
+
+      <div class="project-card blue">
+        <div class="project-icon">📊</div>
+        <h3>Load Profiling & Anomaly Detection</h3>
+        <p>Cron-driven analytics pipelines processing tenant-specific IoT telemetry. Hourly load profiling and weekly anomaly baselines using clustering with silhouette score QC (&gt;0.7).</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">Docker</span>
+          <span class="tag">GitLab CI</span>
+        </div>
+      </div>
+
+      <div class="project-card orange">
+        <div class="project-icon">⚡</div>
+        <h3>piEco — Solar Energy Monitor</h3>
+        <p>Web & mobile app for real-time monitoring of photovoltaic panel energy production at multiple sites, including STEG grid injection data visualization.</p>
+        <div class="tag-row">
+          <span class="tag">Quarkus</span>
+          <span class="tag">Angular</span>
+          <span class="tag">Ionic</span>
+          <span class="tag">OpenSearch</span>
+          <span class="tag">Keycloak</span>
+        </div>
+      </div>
+
+      <div class="project-card green">
+        <div class="project-icon">🚛</div>
+        <h3>Trapsa — Fuel Tank Monitor</h3>
+        <p>Micro frontend web app for real-time tank level monitoring (gasoline & diesel) and fraud detection for a petroleum transport company. Live data via WebSocket.</p>
+        <div class="tag-row">
+          <span class="tag">Angular</span>
+          <span class="tag">Quarkus</span>
+          <span class="tag">Hazelcast</span>
+          <span class="tag">WebSocket</span>
+          <span class="tag">Module Federation</span>
+        </div>
+      </div>
+
+      <div class="project-card blue">
+        <div class="project-icon">🧠</div>
+        <h3>Project Equipements — Gen AI</h3>
+        <p>Microservice implementing generative AI recommendations using Langchain4j, with Ollama (Mistral & Llama 3.2) for local LLM inference and Groq for cloud inference.</p>
+        <div class="tag-row">
+          <span class="tag">Quarkus</span>
+          <span class="tag">Langchain4j</span>
+          <span class="tag">Ollama</span>
+          <span class="tag">Groq</span>
+          <span class="tag">Java</span>
+        </div>
+      </div>
+
+      <div class="project-card orange">
+        <div class="project-icon">🌍</div>
+        <h3>Botler — Travel AI Chatbot</h3>
+        <p>AI-powered chatbot for Best of Tours delivering personalized travel recommendations and multilingual translations. Full frontend integration with improved UX/UI.</p>
+        <div class="tag-row">
+          <span class="tag">React</span>
+          <span class="tag">Claude API</span>
+          <span class="tag">Bootstrap</span>
+          <span class="tag">CSS3</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-header">
+      <span class="section-label">02</span>
+      <h2>experience</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="exp-list">
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-period">Feb 2025</div>
+          <div class="exp-company">Best of Tours</div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-title">FullStack Developer (Freelance)</div>
+          <div class="exp-desc">Built Botler, an AI-powered travel chatbot with personalized recommendations and multilingual support for an international tourism platform.</div>
+          <ul class="exp-highlights">
+            <li>Designed and implemented chatbot front-end logic and website integration</li>
+            <li>Enhanced UI/UX using CSS3 and Bootstrap, increasing user engagement</li>
+            <li>Agile development with 2-week sprints · GitLab version control</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-period">Apr 2021 →<br>Present</div>
+          <div class="exp-company">Bewireless Solutions</div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-title">FullStack Developer</div>
+          <div class="exp-desc">Core developer at an IoT startup building real-time tracking and analytics platforms. Delivered 6+ major projects spanning AI, energy monitoring, fleet management, and fraud detection.</div>
+          <ul class="exp-highlights">
+            <li>Built multi-tenant AI chatbot with RAG pipeline (LangChain + OpenAI + ChromaDB)</li>
+            <li>Designed cron-driven anomaly detection pipelines for energy/water IoT telemetry</li>
+            <li>Developed fuel monitoring algorithm for IoT sensor data (MQTT + VertX)</li>
+            <li>Created solar energy monitoring app (web + mobile) with OpenSearch</li>
+            <li>Implemented micro frontend architecture with module federation</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-period">Nov 2020 –<br>Mar 2021</div>
+          <div class="exp-company">Amaris Consulting</div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-title">Front-End Developer</div>
+          <div class="exp-desc">Built interactive visual elements for web applications, integrated design templates, and optimized frontend-to-backend service communication.</div>
+          <ul class="exp-highlights">
+            <li>Implemented CSS/Bootstrap design improvements, boosting user engagement</li>
+            <li>Contributed to Agile sprint ceremonies and Git-based workflows</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <div class="exp-period">Mar 2020 –<br>Sep 2020</div>
+          <div class="exp-company">CrocoCoder</div>
+        </div>
+        <div class="exp-body">
+          <div class="exp-title">FullStack Developer — MEAN Stack</div>
+          <div class="exp-desc">Developed full-stack JavaScript applications using MongoDB, Express.js, Angular, and Node.js. Built a veterinary clinic appointment scheduling system.</div>
+          <ul class="exp-highlights">
+            <li>Implemented Bcrypt, JWT, Mongoose, Multer for security and data handling</li>
+            <li>REST API design following MVVM architecture</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-header">
+      <span class="section-label">03</span>
+      <h2>skills & stack</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+      <div class="skill-group">
+        <div class="skill-group-label">Frontend</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Angular</span>
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">Ionic</span>
+          <span class="skill-pill">HTML5</span>
+          <span class="skill-pill">CSS3</span>
+          <span class="skill-pill">Bootstrap</span>
+          <span class="skill-pill">Material</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">Backend</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">Quarkus</span>
+          <span class="skill-pill">Spring Boot</span>
+          <span class="skill-pill">Node.js</span>
+          <span class="skill-pill">Express.js</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">FastAPI</span>
+          <span class="skill-pill">VertX</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">AI / ML</div>
+        <div class="skill-pills">
+          <span class="skill-pill">LangChain</span>
+          <span class="skill-pill">OpenAI API</span>
+          <span class="skill-pill">Claude API</span>
+          <span class="skill-pill">Groq</span>
+          <span class="skill-pill">Ollama</span>
+          <span class="skill-pill">ChromaDB</span>
+          <span class="skill-pill">FAISS</span>
+          <span class="skill-pill">RAG</span>
+          <span class="skill-pill">scikit-learn</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">Databases</div>
+        <div class="skill-pills">
+          <span class="skill-pill">MySQL</span>
+          <span class="skill-pill">MongoDB</span>
+          <span class="skill-pill">Hazelcast</span>
+          <span class="skill-pill">OpenSearch</span>
+          <span class="skill-pill">Hibernate</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">DevOps & Tools</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Docker</span>
+          <span class="skill-pill">GitLab CI</span>
+          <span class="skill-pill">GitHub</span>
+          <span class="skill-pill">SonarQube</span>
+          <span class="skill-pill">Kafka</span>
+          <span class="skill-pill">MQTT</span>
+          <span class="skill-pill">WebSocket</span>
+          <span class="skill-pill">Maven</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <div class="skill-group-label">Project & Process</div>
+        <div class="skill-pills">
+          <span class="skill-pill">Jira</span>
+          <span class="skill-pill">Jira REST API</span>
+          <span class="skill-pill">Agile / Scrum</span>
+          <span class="skill-pill">MCP</span>
+          <span class="skill-pill">Keycloak</span>
+          <span class="skill-pill">Microservices</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section>
+    <div class="section-header">
+      <span class="section-label">04</span>
+      <h2>certifications</h2>
+      <div class="section-line"></div>
+    </div>
+    <a href="https://verify.skilljar.com/c/m3expuhyqm64" target="_blank" class="cert-card">
+      <div class="cert-icon">🏅</div>
+      <div class="cert-info">
+        <div class="cert-name">Claude Code in Action</div>
+        <div class="cert-org">Anthropic · Skilljar</div>
+      </div>
+      <div class="cert-date">Mar 2026 ↗</div>
+    </a>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header">
+      <span class="section-label">05</span>
+      <h2>contact</h2>
+      <div class="section-line"></div>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">
+      <a href="mailto:aymenalboudali@gmail.com" class="cert-card" style="text-decoration:none;">
+        <div class="cert-icon">✉️</div>
+        <div class="cert-info">
+          <div class="cert-name">Email</div>
+          <div class="cert-org" style="word-break:break-all;">aymenalboudali@gmail.com</div>
+        </div>
+      </a>
+      <a href="tel:+21697900718" class="cert-card" style="text-decoration:none;">
+        <div class="cert-icon">📱</div>
+        <div class="cert-info">
+          <div class="cert-name">Phone</div>
+          <div class="cert-org">+216 97 900 718</div>
+        </div>
+      </a>
+      <a href="https://linkedin.com/in/boudali-aymen/" target="_blank" class="cert-card" style="text-decoration:none;">
+        <div class="cert-icon">💼</div>
+        <div class="cert-info">
+          <div class="cert-name">LinkedIn</div>
+          <div class="cert-org">boudali-aymen</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-name">Aymen Boudali</div>
+    <div class="footer-contact">
+      Tunis, Tunisia · <a href="mailto:aymenalboudali@gmail.com">aymenalboudali@gmail.com</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
